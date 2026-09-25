@@ -1,4 +1,14 @@
 round,frame_id,object,action,rule_or_reason
 1,frame_0099.jpg,xe bị cắt ở góc dưới phải,added,Chỉ khoanh phần đuôi và đèn hậu còn nhìn thấy trong ảnh
+1,frame_0099.jpg,xe tối gần mép trái,edited,Kéo khung ôm sát thân xe kể cả gương và đèn
+1,frame_0107.jpg,xe tối sát mép trái,edited,Khung AI lệch nên kéo sát thân xe theo guideline
+1,frame_0107.jpg,xe xa gần chân cầu chỉ còn cụm đèn,added,Thân xe tối nhưng còn đoán được đường viền quanh đèn nên khoanh
+1,frame_0182.jpg,hai khung chồng cùng một xe,deleted,Hai xe sát nhau phải hai khung riêng; khung trùng thì xóa
+1,frame_0227.jpg,vệt sáng đèn pha trên mặt đường,deleted,Ánh đèn phản chiếu không phải xe nên không gán nhãn
+1,frame_0270.jpg,xe gần giữa làn rõ thân,accepted,Khung AI ôm sát thân xe nên giữ nguyên
+1,frame_0312.jpg,biển báo / đèn đường phát sáng,deleted,Không phải phương tiện 4 bánh nên xóa khung AI khoanh nhầm
+1,frame_0326.jpg,xe bị che một phần bởi xe khác,added,Chỉ khoanh phần thân còn nhìn thấy không gộp với xe bên cạnh
 1,frame_0331.jpg,vệt đèn / khung không phải xe,deleted,Không phải thân xe nên xóa khung AI khoanh sai
-1,frame_0107.jpg,xe tối sát mép trái,edited,Kéo khung ôm sát thân xe kể cả gương và đèn
+1,frame_0369.jpg,nhiều xe xa AI bỏ sót,added,Thấy cụm đèn và phần thân đoán được nên thêm khung theo guideline
+1,frame_0380.jpg,xe bị nhoè vì đang chạy,edited,Vẫn khoanh vùng nhoè của thân xe kéo khung cho khớp
+1,frame_0392.jpg,xe cắt mép phải chỉ còn nửa thân,added,Chỉ vẽ box cho phần nằm trong ảnh không kéo ra ngoài khung hình
